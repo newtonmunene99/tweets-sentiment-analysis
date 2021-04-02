@@ -8,8 +8,8 @@ import re
 from twitter import *
 
 
-twitter_api = Twitter(auth=OAuth(token='923835703913414656-Gf1fR5tCj5vzYKaZI8brcNHNVnNyhHd', token_secret='ThIvAF7DAF3SMT1yvEdX0MftQYEyvUTAY261CaQddd6S0',
-                                 consumer_key='7JqdOmD1jbxCHwqxnPx0Z96oL', consumer_secret='XwLXe4YlyZTkkU0ySlQiGgmbHX8n8pYwXawW7O3gHTh87L3h1Z'))
+twitter_api = Twitter(auth=OAuth(token='YOUR_TWITTER_TOKEN', token_secret='YOUR_TWITTER_TOKEN_SECRET',
+                                 consumer_key='YOUR_API_KEY', consumer_secret='YOUR_API_SECRET'))
 
 
 def buildTestSet(search_keyword):
